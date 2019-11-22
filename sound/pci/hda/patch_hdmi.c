@@ -3486,8 +3486,6 @@ static int patch_nvhdmi(struct hda_codec *codec)
 
 	codec->link_down_at_suspend = 1;
 
-	generic_acomp_init(codec, &nvhdmi_audio_ops, nvhdmi_port2pin);
-
 	return 0;
 }
 
